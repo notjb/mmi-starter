@@ -1,0 +1,18 @@
+{
+  "customSyntax": "postcss-scss",
+  "extends": [
+    "stylelint-config-recommended-scss",
+    "stylelint-config-hudochenkov",
+    "stylelint-config-hudochenkov/order",
+    "stylelint-prettier/recommended",
+    "stylelint-config-prettier-scss"
+  ],
+  "plugins": ["stylelint-prettier"],
+  "rules": {
+    "selector-max-type": null,
+    "function-parentheses-space-inside": null,
+    "no-descending-specificity": null,
+    "max-nesting-depth": 2,
+    "selector-max-id": 1
+  }
+}
