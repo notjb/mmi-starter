@@ -35,7 +35,7 @@ Il utilise les packages suivantes:
 
 ## Installation
 
-- `git clone url`
+- Dans le terminal lancer la commande `git clone https://github.com/notjb/mmi-starter.git`
 - Renomer le dossier celon vos besoins
 - Ouvrir le dossier dans **vscode**
 - Mettre à jour `name` dans le fichier `package.json`
