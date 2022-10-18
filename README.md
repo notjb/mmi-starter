@@ -50,7 +50,7 @@ Il utilise les packages suivantes:
 ### Validation du scss
 
 Le scss est automatiquement corrigé suivant certaines règles.
-Cepdendant, il peut arriver que fix automatique ne soit pas possbile. À ce moment, une erreur server afficher des erreurs en terminal et en front, il faudra les corriger.
+Cepdendant, il peut arriver qu'un fix automatique ne soit pas possbile. À ce moment, une erreur server affichera les erreurs en terminal et en front, il faudra les corriger.
 
 Se référer à la documentation stylelint pour obtenir des exemples de résolution : https://stylelint.io/user-guide/rules/list/
 
