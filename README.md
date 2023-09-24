@@ -1,37 +1,28 @@
 # MMI2 Starter
 
 > Une base de travail pour lancer son prochain projet front.
-Réalisé pour les cours de WEB3.
+> Réalisé pour les cours de WEB3.
 
 ## Tooling
-Ce projet propose une implémentation des librairies vues en cours magistral. 
+
+Ce projet propose une implémentation des librairies vues en cours magistral.
 Il utilise les packages suivantes:
 
 - ViteJS
 - SASS
 - Stylelint
-- EsLint (@todo à documenter)
+- EsLint
 
 ## Prerequis
-- Installer node sur sa machine
+
+- Installer nodeJS sur sa machine
 - Avoir **vscode**
 - Ajouter le plugin [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) à **vscode**
-- Ajouter le plugin [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) à **vscode**
-- Dans les préférences de **vscode** (json), ajouter les lignes suivantes : 
-```json
-  "less.validate": false,
-  "scss.validate": false,
-  "css.validate": false,
-  "stylelint.validate": [
-    "css",
-    "scss"
-  ],
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-```
-- 
+- Ajouter le plugin [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) à **vscode**
+- Ajouter le plugin [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) à **vscode**
+- Ajouter le plugin [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) à **vscode**
 
+Ces éléments sont ensuite configurés par le fichier de config local `.vscode/settings.json`
 
 ## Installation
 
@@ -44,6 +35,7 @@ Il utilise les packages suivantes:
 ## Utilisation
 
 ### Lancer le serveur de dev
+
 - Dans **vscode**, ouvrir la fenêtre de terminal (Terminal > Nouveau terminal)
 - Lancer la commande `npm run dev`
 
@@ -56,13 +48,15 @@ Se référer à la documentation stylelint pour obtenir des exemples de résolut
 
 ### Comment stocker mes assets
 
-Pour ajouter du css/scss : 
+Pour ajouter du css/scss :
+
 - Ajouter les fichiers dans le dossier css
 - Faire les imports nécessaires dans `src/app.scss`
 
-Pour ajouter des images : 
+Pour ajouter des images :
+
 - Utiliser les dossiers `public/img` et `public/svg`
-- Pour les appeler dans `index.html`, procéder comme suit:  `<img src="/img/nom-du-fichier.jpg">`.
+- Pour les appeler dans `index.html`, procéder comme suit: `<img src="/img/nom-du-fichier.jpg">`.
 
 ## Générer le site pour la production
 
