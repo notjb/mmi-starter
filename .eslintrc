@@ -1,12 +1,12 @@
 {
   "env": {
-    "es2022": true,
+    "es6": true,
     "browser": true,
     "node": true
   },
   "extends": ["eslint:recommended", "prettier"],
   "parserOptions": {
     "sourceType": "module",
-    "allowImportExportEverywhere": true,
-  },
+    "allowImportExportEverywhere": true
+  }
 }
