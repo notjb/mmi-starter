@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
-import StylelintPlugin from 'vite-plugin-stylelint';
-import eslintPlugin from 'vite-plugin-eslint';
+import stylelint from 'vite-plugin-stylelint';
+import eslint from 'vite-plugin-eslint'
 
 export default defineConfig({
-  plugins: [StylelintPlugin({ fix: true }), eslintPlugin({ fix: true })],
+  plugins: [stylelint({fix: true}), eslint({fix: true})],
 });
