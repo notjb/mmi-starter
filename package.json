@@ -10,25 +10,26 @@
     "lint:style": "stylelint \"**/*.scss\" --ignore-path .gitignore"
   },
   "devDependencies": {
-    "postcss": "^8.4.30",
-    "prettier": "^3.0.3",
-    "stylelint": "^15.0.0",
-    "stylelint-config-hudochenkov": "^9.0.0",
+    "@stylistic/eslint-plugin": "^2.8.0",
+    "postcss": "^8.4.47",
+    "prettier": "^3.3.3",
+    "stylelint": "^16.9.0",
+    "stylelint-config-hudochenkov": "^10.0.0",
     "stylelint-config-prettier-scss": "^1.0.0",
-    "stylelint-config-recommended-scss": "^13.0.0",
-    "stylelint-config-standard": "^34.0.0",
-    "stylelint-config-standard-scss": "^11.0.0",
-    "stylelint-order": "^6.0.3",
-    "stylelint-prettier": "^4.0.2",
-    "vite": "^4.4.9",
-    "vite-plugin-stylelint": "^5.1.1"
+    "stylelint-config-recommended-scss": "^14.1.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "stylelint-order": "^6.0.4",
+    "stylelint-prettier": "^5.0.2",
+    "vite": "^5.4.7",
+    "vite-plugin-stylelint": "^5.3.1"
   },
   "dependencies": {
-    "eslint": "^8.50.0",
-    "eslint-config-prettier": "^9.0.0",
-    "postcss-scss": "^4.0.8",
-    "sass": "^1.68.0",
-    "stylelint-scss": "^5.2.1",
+    "eslint": "^9.11.0",
+    "eslint-config-prettier": "^9.1.0",
+    "postcss-scss": "^4.0.9",
+    "sass": "^1.79.3",
+    "stylelint-scss": "^6.7.0",
     "vite-plugin-eslint": "^1.8.1"
   }
 }
