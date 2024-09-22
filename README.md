@@ -26,11 +26,12 @@ Ces éléments sont ensuite configurés par le fichier de config local `.vscode/
 
 ## Installation
 
-- Dans le terminal lancer la commande `git clone https://github.com/notjb/mmi-starter.git`
-- Renomer le dossier celon vos besoins
-- Ouvrir le dossier dans **vscode**
-- Mettre à jour `name` dans le fichier `package.json`
+- Dans le terminal lancer la commande `git clone https://github.com/notjb/mmi-starter.git <NOM DU PROJET>`
+- Ouvrir le dossier dans **vscode**: `cd <NOM DU PROJET> && code .`
+- Supprimer le dosier git: `rm -rf .git`
 - Lancer la commande `npm install`
+- **Optionnel :** Mettre à jour `name` dans le fichier `package.json`
+- **optionnel :** Initialiser git avec la commadne `git init`
 
 ## Utilisation
 
@@ -62,4 +63,5 @@ Pour ajouter des images :
 
 - Dans **vscode**, si ce n'est pas déjà fait, ouvrir la fenêtre de terminal (Terminal > Nouveau terminal)
 - Lancer la commande `npm run build`
+- Lancer `npm run preview` pour prévisualiser le site en local
 - Le dossier `/dist` comporte le site prêt à être mis en ligne 🎉
