@@ -26,12 +26,12 @@ Ces éléments sont ensuite configurés par le fichier de config local `.vscode/
 
 ## Installation
 
-- Dans le terminal lancer la commande `git clone https://github.com/notjb/mmi-starter.git <NOM DU PROJET>`
-- Ouvrir le dossier dans **vscode**: `cd <NOM DU PROJET> && code .`
-- Supprimer le dosier git: `rm -rf .git`
+- Dans le terminal lancer la commande `git clone https://github.com/notjb/mmi-starter.git NOM_DU_PROJET`
 - Lancer la commande `npm install`
+- Ouvrir le dossier dans **VSCode**
+- **Optionnel :** Supprimer le dosier git: `rm -rf .git`
 - **Optionnel :** Mettre à jour `name` dans le fichier `package.json`
-- **optionnel :** Initialiser git avec la commadne `git init`
+- **Optionnel :** Initialiser git avec la commande `git init`
 
 ## Utilisation
 
